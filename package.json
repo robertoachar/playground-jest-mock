@@ -1,0 +1,37 @@
+{
+  "name": "playground-jest-mock",
+  "version": "1.0.0",
+  "description": "A playground for Jest with Mock",
+  "author": "Roberto Achar <robertoachar@gmail.com>",
+  "homepage": "https://github.com/robertoachar/playground-jest-mock#readme",
+  "keywords": [
+    "node"
+  ],
+  "main": "main.js",
+  "files": [
+    "src"
+  ],
+  "scripts": {
+    "lint": "eslint 'src/**/*.js'",
+    "start": "node main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/robertoachar/playground-jest-mock.git"
+  },
+  "bugs": {
+    "url": "https://github.com/robertoachar/playground-jest-mock/issues"
+  },
+  "dependencies": {
+    "esm": "3.2.25"
+  },
+  "devDependencies": {
+    "eslint": "6.7.2",
+    "eslint-config-airbnb-base": "14.0.0",
+    "eslint-config-prettier": "6.7.0",
+    "eslint-plugin-import": "2.19.1",
+    "eslint-plugin-prettier": "3.1.1",
+    "prettier": "1.19.1"
+  },
+  "license": "MIT"
+}
